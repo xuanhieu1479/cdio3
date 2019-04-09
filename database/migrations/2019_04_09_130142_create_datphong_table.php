@@ -21,7 +21,7 @@ class CreateDatphongTable extends Migration
             $table->date('ngaydi');
             $table->string('tinhtrang');
             $table->timestamps();
-            $table->foreign('idhomestay')->references('idhomestay')->on('homestay');
+            $table->foreign('idphong')->references('idphong')->on('phong');
             $table->foreign('emailnguoidung')->references('email')->on('nguoidung');
         });
     }

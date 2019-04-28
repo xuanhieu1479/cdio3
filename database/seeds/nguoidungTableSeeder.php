@@ -11,7 +11,7 @@ class nguoidungTableSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('chucvu')->insert([
+        DB::table('nguoidung')->insert([
             'email' => 'admin@gmail.com',
             'matkhau' => '123',
             'ten' => 'Admin',

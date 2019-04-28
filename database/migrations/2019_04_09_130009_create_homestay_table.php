@@ -17,6 +17,7 @@ class CreateHomestayTable extends Migration
             $table->string('idhomestay')->primary();
             $table->string('emailnguoidung');
             $table->string('ten');
+            $table->string('thanhpho');
             $table->string('diachi');
             $table->string('mota');
             $table->string('thumbnail');

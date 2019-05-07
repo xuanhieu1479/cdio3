@@ -13,7 +13,7 @@ class nguoidungTableSeeder extends Seeder
     {
         DB::table('homestay')->insert([
             'idhomestay' => 'abc123',
-            'emailnguoidung' => "admin@gmail.com",
+            'email' => "admin@gmail.com",
             'ten' => 'Homestay 1',
             'thanhpho' => 'Đà Nẵng',
             'diachi' => "123 Điện Biên Phủ",
@@ -25,7 +25,7 @@ class nguoidungTableSeeder extends Seeder
 
         DB::table('homestay')->insert([
             'idhomestay' => 'cef456',
-            'emailnguoidung' => "admin@gmail.com",
+            'email' => "admin@gmail.com",
             'ten' => 'Homestay 2',
             'thanhpho' => 'Hồ Chí Minh',
             'diachi' => "456 Điện Biên Phủ",
@@ -37,7 +37,7 @@ class nguoidungTableSeeder extends Seeder
 
         DB::table('homestay')->insert([
             'idhomestay' => 'ghk789',
-            'emailnguoidung' => "admin@gmail.com",
+            'email' => "admin@gmail.com",
             'ten' => 'Homestay 3',
             'thanhpho' => 'Hà Nội',
             'diachi' => "789 Điện Biên Phủ",

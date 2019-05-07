@@ -15,7 +15,7 @@ class CreateHomestayTable extends Migration
     {
         Schema::create('homestay', function (Blueprint $table) {
             $table->string('idhomestay')->primary();
-            $table->string('emailnguoidung');
+            $table->string('email');
             $table->string('ten');
             $table->string('thanhpho');
             $table->string('diachi');
@@ -24,7 +24,7 @@ class CreateHomestayTable extends Migration
             $table->double('danhgia', 4, 2);
             $table->string('tinhtrang');
             $table->timestamps();
-            $table->foreign('emailnguoidung')->references('email')->on('nguoidung');
+            $table->foreign('email')->references('email')->on('nguoidung');
         });
     }
 

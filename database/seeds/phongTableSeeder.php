@@ -23,8 +23,8 @@ class phongTableSeeder extends Seeder
         ]);
 
         DB::table('phong')->insert([
-            'idphong' => 'cef456',
-            'idhomestay' => 'cef654',
+            'idphong' => 'cef654',
+            'idhomestay' => 'cef456',
             'songuoitoida' => 2,
             'gia' => 1500000,
             'thongtin' => 'Blahblahlbah',
@@ -34,7 +34,7 @@ class phongTableSeeder extends Seeder
         ]);
 
         DB::table('phong')->insert([
-            'idphong' => 'ghk987',
+            'idphong' => 'gkh987',
             'idhomestay' => 'ghk789',
             'songuoitoida' => 3,
             'gia' => 2400000,

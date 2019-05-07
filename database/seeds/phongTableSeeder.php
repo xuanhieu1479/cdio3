@@ -23,7 +23,7 @@ class phongTableSeeder extends Seeder
         ]);
 
         DB::table('phong')->insert([
-            'idphong' => 'abc321',
+            'idphong' => 'abc123',
             'idhomestay' => 'abc123',
             'songuoitoida' => 2,
             'gia' => 1600000,
@@ -34,7 +34,7 @@ class phongTableSeeder extends Seeder
         ]);
 
         DB::table('phong')->insert([
-            'idphong' => 'abc321',
+            'idphong' => 'abc231',
             'idhomestay' => 'abc123',
             'songuoitoida' => 3,
             'gia' => 2400000,
@@ -56,7 +56,7 @@ class phongTableSeeder extends Seeder
         ]);
 
         DB::table('phong')->insert([
-            'idphong' => 'cef654',
+            'idphong' => 'cef456',
             'idhomestay' => 'cef456',
             'songuoitoida' => 2,
             'gia' => 1400000,
@@ -67,7 +67,7 @@ class phongTableSeeder extends Seeder
         ]);
 
         DB::table('phong')->insert([
-            'idphong' => 'cef654',
+            'idphong' => 'cef546',
             'idhomestay' => 'cef456',
             'songuoitoida' => 3,
             'gia' => 2100000,
@@ -89,7 +89,7 @@ class phongTableSeeder extends Seeder
         ]);
 
         DB::table('phong')->insert([
-            'idphong' => 'gkh987',
+            'idphong' => 'gkh789',
             'idhomestay' => 'ghk789',
             'songuoitoida' => 2,
             'gia' => 1800000,
@@ -100,7 +100,7 @@ class phongTableSeeder extends Seeder
         ]);
 
         DB::table('phong')->insert([
-            'idphong' => 'gkh987',
+            'idphong' => 'gkh879',
             'idhomestay' => 'ghk789',
             'songuoitoida' => 3,
             'gia' => 2700000,

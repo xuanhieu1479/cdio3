@@ -14,5 +14,6 @@ class DatabaseSeeder extends Seeder
         $this->call(chucvuTableSeeder::class);
         $this->call(nguoidungTableSeeder::class);
         $this->call(homestayTableSeeder::class);
+        $this->call(phongTableSeeder::class);
     }
 }

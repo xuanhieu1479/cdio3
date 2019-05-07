@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Seeder;
 
-class nguoidungTableSeeder extends Seeder
+class phongTableSeeder extends Seeder
 {
     /**
      * Run the database seeds.

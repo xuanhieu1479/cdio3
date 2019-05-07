@@ -22,7 +22,7 @@ class phongTableSeeder extends Seeder
             'tinhtrang' => 'Bình thường',
         ]);
 
-        DB::table('homestay')->insert([
+        DB::table('phong')->insert([
             'idphong' => 'cef456',
             'idhomestay' => 'cef654',
             'songuoitoida' => 2,
@@ -33,7 +33,7 @@ class phongTableSeeder extends Seeder
             'tinhtrang' => 'Bình thường',
         ]);
 
-        DB::table('homestay')->insert([
+        DB::table('phong')->insert([
             'idphong' => 'ghk987',
             'idhomestay' => 'ghk789',
             'songuoitoida' => 3,

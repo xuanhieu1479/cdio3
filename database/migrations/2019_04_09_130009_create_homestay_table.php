@@ -21,7 +21,7 @@ class CreateHomestayTable extends Migration
             $table->string('diachi');
             $table->string('mota');
             $table->string('thumbnail');
-            $table->string('danhgia');
+            $table->double('danhgia', 4, 2);
             $table->string('tinhtrang');
             $table->timestamps();
             $table->foreign('emailnguoidung')->references('email')->on('nguoidung');

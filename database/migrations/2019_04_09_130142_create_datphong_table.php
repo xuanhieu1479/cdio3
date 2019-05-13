@@ -17,8 +17,8 @@ class CreateDatphongTable extends Migration
             $table->string('iddatphong')->primary();
             $table->string('emailnguoidung');
             $table->string('idphong');
-            $table->date('ngayden');
-            $table->date('ngaydi');
+            $table->date('ngayden')->nullable();
+            $table->date('ngaydi')->nullable();
             $table->string('tinhtrang');
             $table->timestamps();
             $table->foreign('idphong')->references('idphong')->on('phong');
